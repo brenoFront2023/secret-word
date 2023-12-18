@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# Secret Word 🕵️‍♂️🔍
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bem-vindo ao jogo interativo "Secret Word"! Este projeto é uma implementação de um jogo baseado no conceito de adivinhação de palavras, desafiando os jogadores a descobrir palavras com base em dicas fornecidas.
 
-## Available Scripts
+## Descrição 🎮
 
-In the project directory, you can run:
+"Secret Word" é um jogo inspirado nos programas de televisão em que os participantes precisam adivinhar uma palavra com base em dicas fornecidas. Cada partida permite aos jogadores três tentativas para adivinhar a palavra correta, acumulando pontos a cada acerto. Durante o jogo, são fornecidas dicas e os jogadores podem tentar adivinhar a palavra fornecendo letras.
 
-### `npm start`
+## Funcionalidades Principais ⚙️
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Interface de usuário interativa para iniciar e jogar.
+- Campo para inserir letras tentadas durante o jogo.
+- Dicas fornecidas para ajudar os jogadores a adivinhar a palavra.
+- Validação de letras já utilizadas e revelação gradual da palavra correta.
+- Contagem de pontuação baseada nas tentativas e acertos dos jogadores.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Instalação e Uso 🚀
 
-### `npm test`
+### Instalação
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone o repositório.
+2. Execute `npm install` para instalar as dependências.
+3. Execute `npm start` para iniciar o jogo.
 
-### `npm run build`
+### Uso
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Acesse o jogo no navegador.
+- Clique para iniciar a partida.
+- Insira letras para tentar adivinhar a palavra.
+- Acompanhe sua pontuação e número de tentativas.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contribuição 🤝
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Contribuições são bem-vindas! Se deseja contribuir com melhorias ou correções, siga os passos:
 
-### `npm run eject`
+1. Fork o projeto.
+2. Crie um branch para suas alterações: `git checkout -b feature/nova-feature`.
+3. Faça commit das alterações: `git commit -m 'Adiciona nova feature'`.
+4. Envie para o branch principal: `git push origin feature/nova-feature`.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Licença 📜
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Este projeto é licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
